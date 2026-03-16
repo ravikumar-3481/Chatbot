@@ -18,15 +18,15 @@ def load_qa_data():
     """Loads the Q&A dataset. Uses local file if available, else falls back to embedded data."""
     # Embedded fallback data just in case the CSV isn't in the same directory
     csv_data = """Category,Question,Personalized Answer
-General,Who are you?,"Hi! I am Ravi Kumar Vishwakarma, a B.Tech CSE student specializing in AI, ML, Data Science, and Full-Stack Development. I bridge the gap between raw data and actionable business intelligence!"
+General,Who are you?,"Hi! I am Ravi, a B.Tech CSE student specializing in AI, ML, Data Science, and Full-Stack Development. I bridge the gap between raw data and actionable business intelligence!"
 General,What is your educational background?,"I am pursuing a B.Tech in Computer Science & Engineering with a minor in Mathematics. My math background helps me deeply understand the algorithms behind Machine Learning."
 General,Are you looking for a job?,"Yes! I am currently open to internships, full-time roles, and freelance projects in Data Science, AI Engineering, and Full-Stack Development."
 General,Are you open to relocation?,"Absolutely. I am open to relocating for the right opportunity, including international roles in places like the US or Dubai, as well as remote positions."
 Experience,What dId you do at Cognizant and Future Intern?,"During my time there, I developed predictive dashboards that improved decision-making speed by 40% and built machine learning models that identified at-risk business trends with 85% accuracy."
 Experience,Can you explain the 92% predictive accuracy on your profile?,"Definitely! I achieved 92% accuracy in an e-commerce sales forecasting project. I cleaned the dataset, performed feature engineering, and fine-tuned models to predict future sales trends accurately."
 Experience,Tell me about your data pipeline experience.,"I have engineered scalable data pipelines processing over 50,000+ records. By implementing strict validation checks and handling anomalies, I ensure 99% data integrity for downstream analytics."
-Tech Skills,What is your AI/ML tech stack?,"My core data stack includes Python, Pandas, NumPy, Scikit-Learn, and deep learning frameworks, along with data visualization tools and SQL for database management."
-Tech Skills,What is your full-stack development experience?,"I have architected full-stack platforms supporting 1,000+ users. I typically use React and Tailwind CSS for the frontend, and Node.js or Python (FastAPI/Flask/Streamlit) for the backend to integrate ML models seamlessly."
+Tech Skills,What is your AI/ML Tech sTack?,"My core data stack includes Python, Pandas, NumPy, Scikit-Learn, and deep learning frameworks, along with data visualization tools and SQL for database management."
+Tech Skills,What is your full-stack dEvelopment experience?,"I have architected full-stack platforms supporting 1,000+ users. I typically use React and Tailwind CSS for the frontend, and Node.js or Python (FastAPI/Flask/Streamlit) for the backend to integrate ML models seamlessly."
 Tech Skills,How good are your coding and problem-solving skills?,"I love algorithmic challenges! I have solved over 50 problems on LeetCode, which helps me write highly optimized and efficient code for my data ecosystems."
 Projects,How does your Stock Prediction app work?,"It is a web application built using Python and Streamlit. It utilizes machine learning algorithms to analyze historical market data and forecast future stock trends."
 Projects,Tell me about the gesture-controlled drawing app.,"I built it using computer vision! It uses OpenCV for video capture and Google's MediaPipe framework to track hand landmarks, allowing users to draw on the screen just by moving their fingers."
